@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+    background-image: url("/images/azulejos-banner.png");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center bottom -5rem;
+    background-size: cover;
+    max-height: 12rem;
+    min-height: 12rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+    header .burguer {
+        background-color: transparent;
+        border-color: transparent;
+    }
+        header .burguer img {
+            max-height: 8.5rem;
+        }
+
+        header #logo img {
+            max-height: 10rem;
+        }
